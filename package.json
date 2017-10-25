@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "immutability-helper": "^2.4.0",
     "react": "^16.0.0",
-    "react-addons-update": "^15.6.2",
     "react-dom": "^16.0.0"
   },
   "devDependencies": {

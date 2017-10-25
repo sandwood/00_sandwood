@@ -11,7 +11,7 @@ module.exports = {
     devServer: {
         hot: true,
         inline: true,
-        port: 4000,
+        port: 4001,
         contentBase: __dirname + '/public/'
     },
 
