@@ -26,7 +26,8 @@ class ContactCreate extends Component {
         this.setState({
             name: '',
             phone: ''
-        })
+        });
+        this.nameInput.focus();
     }
     handleKeyPress(e){
         if(e.charCode === 13){
@@ -44,6 +45,7 @@ class ContactCreate extends Component {
                         placeholder="name"
                         value={this.state.name}
                         onChange={this.handleChange}
+                        ref={(ref) => { this.nameInput = ref }}
                     />
                     <input 
                         type="text" 
